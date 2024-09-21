@@ -1,14 +1,15 @@
-Hello All!
+<h1>Intro 🚀</h1>
 
-The purpose of this Java application is to convert one currency to another in a user friendly interface.
-To run my code: 
-  - simply clone, the source code and run the ".class" file. You do not need an IDE, and because it is a ".class" file it will run on both MacOS as well as Windows.
+<p>The purpose of this project is purely for my learning of the Java SWING toolkit, which was later superseded by Java FX. Here you will find a simple currency converter that leverages an external API to grab current converion rates. You will need internet access because it is talking to an external API everytime you press "Convert."</p>
 
-This application is a Maven project, and uses a GET call to get current conversion rates from Exchange Rate API where they have over 100 currencies updated every hour. Due to how active they are with
-updating their database, you can be sure to get the latest dollar amount when converting prices.
-
-For anyone interested in the programming logic behind this:
-1. guiBuilder is where the GUI components are built.
-2. I only use the main method to call the guiBuilder class, as well as the buttonListener method.
-    KEEP IN MIND: There are MANY MANY other ways to implement this. It can be implemented within the same class. I simply did it this way because it would be far easier to build other functionalities if I'd like to.
-3. I've added plenty of comments throughout my code explaining what I am doing in an effort to minimize confusion.
+<h2>⚙️ How to install [For end users]: </h2>
+<p>If you are not a developer and you do not have programming knowledge, then simply download the JAR file and run it on your machine.</p>
+<ul>
+  <li>Head over to the repository: https://github.com/YabiSkywalker/CurrencyConverter </li>
+  <li>Click on the fourth file down called "CurrencyConverter.jar".</li>
+  <li>Download the raw file to your machine, and double click to run it.</li>
+</ul>
+<h3>MacOS users: </h3>
+<p>If you are using MacOS, you will likely experience an error right off the bat stating: "CurrencyConverter.jar” cannot be opened because it is from an unidentified developer. macOS cannot verify that this app is free from malware."</p>
+<h4>Resolution: </h3>
+<p>You need to open up settings, and authorize the install of the package you just downloaded.</p>
