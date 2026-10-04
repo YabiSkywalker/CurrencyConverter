@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CurrencyConverter_1791146257141-push-trigger-input-set
+  identifier: Build_CurrencyConverter_1791146257141pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_CurrencyConverter_1791146257141
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
