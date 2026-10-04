@@ -19,6 +19,16 @@ pipeline:
                   spec:
                     shell: Sh
                     command: echo "Welcome to Harness CI"
+              - step:
+                  type: BuildAndPushDockerRegistry
+                  name: BuildAndPushDockerRegistry_1
+                  identifier: BuildAndPushDockerRegistry_1
+                  spec:
+                    connectorRef: banderaservicedockerconnector
+                    repo: yabiskywalker/bandera-service-images
+                    tags:
+                      - v1.0
+                    caching: false
           platform:
             os: Linux
             arch: Amd64
